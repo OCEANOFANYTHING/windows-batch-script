@@ -1,0 +1,1 @@
+REM Remove files older than 30 days forfiles /p "C:\Users\YOURUSERNAME\Downloads" /s /m *.* /c "cmd /c Del @path" /d -30<br>
